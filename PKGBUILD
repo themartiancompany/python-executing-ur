@@ -18,7 +18,7 @@ makedepends=(
 )
 checkdepends=('ipython' 'python-asttokens' 'python-littleutils' 'python-pytest')
 source=("git+$url.git#tag=v$pkgver")
-b2sums=('SKIP')
+b2sums=('4d4c42729494d3900b59ef8c2c3cb5a53fdd609103337ae501f190a61fc0bc356efb575dd987f26eac4ef5ced3cb33b33946e73d7152ac540ef820c7142f011b')
 
 build() {
   cd "$_name"
