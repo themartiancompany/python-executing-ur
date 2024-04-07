@@ -3,7 +3,7 @@
 pkgname=python-executing
 _name=${pkgname#python-}
 pkgver=2.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Get the currently executing AST node of a frame, and other information'
 arch=('any')
 url=https://github.com/alexmojaki/executing
